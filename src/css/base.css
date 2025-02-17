@@ -59,8 +59,7 @@ main:has(.back-link) {
 .gallery-link {
   cursor: zoom-in;
 }
-
-.sl-wrapper {
+.sl-image{
   max-width: 1112px !important;
-  max-height: 640px !important;
+  min-height: 640px !important;
 }
