@@ -2,9 +2,16 @@
   position: relative;
   display: inline-block;
   padding: 4px 8px;
-  margin-top: 32px;
   border: 1px solid;
   border-radius: 8px;
+  background-color: rgb(231, 156, 154);
+  transition: 250ms ease-in;
+  transition-property: background-color border-color color;
+}
+.back-link:hover{
+  background-color: rgb(153, 60, 65);
+    border-color: rgb(153, 60, 65);
+    color: honeydew;
 }
 .back-link::before {
   content: '';
@@ -26,4 +33,5 @@
 .back-link:hover::before {
   opacity: 1;
   animation-play-state: running;
+  
 }
