@@ -86,7 +86,6 @@ const elements = images.map(image => {
   createImg.classList.add('gallery-image');
   createImg.src = image.preview;
   createImg.alt = image.description;
-  createImg.setAttribute('data-source', image.original);
 
   createLink.append(createImg);
   createLi.append(createLink);

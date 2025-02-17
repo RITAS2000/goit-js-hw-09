@@ -56,3 +56,6 @@ main:has(.back-link) {
 .gallery-item:hover {
   transform: scale(1.044);
 }
+.gallery-link {
+  cursor: zoom-in;
+}
