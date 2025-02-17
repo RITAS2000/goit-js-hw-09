@@ -59,3 +59,7 @@ main:has(.back-link) {
 .gallery-link {
   cursor: zoom-in;
 }
+.sl-image img {
+  width: 1112px !important;
+  height: 640px !important;
+}
