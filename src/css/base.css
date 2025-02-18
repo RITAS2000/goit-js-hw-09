@@ -59,11 +59,13 @@ main:has(.back-link) {
 .gallery-link {
   cursor: zoom-in;
 }
-.sl-image{
-  max-width: 1112px !important;
-  min-height: 640px !important;
-  margin: auto;
+.sl-wrapper  {
+  background-color: rgba(250, 105, 61, 0.226);
 }
-.sl-caption {
-  max-width: 1112px !important;
-}
+
+
+
+
+
+
+
