@@ -68,10 +68,10 @@ const images = [
   },
 ];
 
-const main = document.querySelector('main');
-
-const createUl = document.createElement('ul');
-createUl.classList.add('gallery');
+// const main = document.querySelector('main');
+const createUl = document.querySelector('.gallery');
+// const createUl = document.createElement('ul');
+// createUl.classList.add('gallery');
 
 const elements = images.map(image => {
   const createLi = document.createElement('li');
@@ -94,7 +94,7 @@ const elements = images.map(image => {
 });
 
 createUl.append(...elements);
-main.append(createUl);
+// main.append(createUl);
 
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt', // Підпис бере з атрибута alt
