@@ -26,10 +26,8 @@ form.addEventListener('submit', event => {
   }
   event.preventDefault();
   console.log(formData);
-  formData = {
-    email: '',
-    message: '',
-  };
+  formData.email = '';
+  formData.message = '';
   localStorage.removeItem(localStorageKey);
   form.reset();
 });
