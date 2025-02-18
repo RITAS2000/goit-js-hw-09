@@ -62,4 +62,8 @@ main:has(.back-link) {
 .sl-image{
   max-width: 1112px !important;
   min-height: 640px !important;
+  margin: auto;
+}
+.sl-caption {
+  max-width: 1112px !important;
 }
